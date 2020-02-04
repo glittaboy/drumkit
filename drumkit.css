@@ -1,0 +1,47 @@
+/*css*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Lateef|Vidaloka&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
+body {
+  background: srt('./tea.jpg') no-repeat;
+  background-size: 100vw 100vh;
+  text-align:center;
+  color: rgb(155, 207, 148);
+  background-color: rgb(136, 117, 101);
+}
+.logo {
+  font-family: Vidaloka;
+  font-size: 5em;
+  font-weight: bold;
+  margin-top: 10%;
+}
+.drums {
+  display: inline-block;
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+.drum {
+  background-color: rgb(231, 194, 192);A
+  border: 2px solid #fff;
+  border-radius: 1%;
+  padding: 20px 20px;
+  margin: 10px;
+  align-self: center;
+}
+.drum kbd {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.footer {
+  margin-top: 10%;
+}
+.footer a {
+  font-weight: bold;
+  color: rgb(179, 154, 127);
+  letter-spacing: 1px;
+}

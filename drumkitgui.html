@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./drumkit.js"></script>
+    <link type="text/css" rel="stylesheet" href="drumkit.css">
+</head>
+<body>
+<!--   create a main div with drums which has a attribute named data-key -->
+  <div class="main">
+    <div class="logo">
+      ☆ My Drum Kit ☆
+  </div>
+  <br/>
+  <div class="drums">
+<!--     number assigned to data-key is a code for a key on keyboard -->
+    <div class="drum" data-key="65">
+      <span>Kick Drum</span><br/>
+      <kbd>A</kbd>
+    </div>
+    <div class="drum" data-key="83">
+      <span>Snare Drum</span><br/>
+      <kbd>S</kbd>
+    </div>
+    <div class="drum" data-key="68">
+      <span>Closed Hi Hat</span><br/>
+      <kbd>D</kbd>
+    </div>
+    <div class="drum" data-key="70">
+      <span>Open Hi Hat</span><br/>
+      <kbd>F</kbd>
+    </div>
+    <div class="drum" data-key="89">
+      <span>Brass</span><br/>
+      <kbd>G</kbd>
+    </div>
+  </div>
+  
+  <div class="footer">
+    ☺ Created by Gabriel Estrada ☺
+  </div>
+  </div>
+<!--audio -->
+  <audio data-key="65" src="./kickdrum.wav"></audio>
+  <audio data-key="83" src="./snare.wav"></audio>
+  <audio data-key="68" src="./hihat.wav"></audio>
+  <audio data-key="70" src="./openhat.wav"></audio>
+  <audio data-key="89" src="./brass.wav"></audio>
+  
+</body>
+</html>
